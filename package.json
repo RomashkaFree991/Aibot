@@ -1,0 +1,17 @@
+{
+  "name": "telegram-9router-safe-button-bot",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Telegram AI bot with buttons, inline mode, group reply context and generated file/ZIP delivery via 9Router",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "check": "node --check bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1"
+  }
+}
